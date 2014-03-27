@@ -1,0 +1,59 @@
+{
+  "questions": [
+    {
+      "q": "What is your gender?",
+      "a": [
+        {
+          "option": "Female"
+        },
+        {
+          "option": "Male"
+        }
+      ]
+    },
+    {
+      "q": "What is your personality type?",
+      "a": [
+        {
+          "option": "Introverted"
+        },
+        {
+          "option": "Extroverted"
+        }
+      ]
+    },
+    {
+      "q": "Are you Aggressive?",
+      "a": [
+        {
+          "option": "Yes"
+        },
+        {
+          "option": "No"
+        }
+      ]
+    },
+    {
+      "q": "Do you appreciate shenanigans?",
+      "a": [
+        {
+          "option": "Yes"
+        },
+        {
+          "option": "No"
+        }
+      ]
+    },
+    {
+      "q": "Have you been bewitched, cursed or have done these to others?",
+      "a": [
+        {
+          "option": "Yes"
+        },
+        {
+          "option": "No"
+        }
+      ]
+    }
+  ]
+}
