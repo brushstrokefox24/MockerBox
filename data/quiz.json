@@ -41,6 +41,17 @@
       ]
     },
     {
+      "q": "Do you already have a domain name?",
+      "a": [
+        {
+          "option": "Yes"
+        },
+        {
+          "option": "No"
+        }
+      ]
+    },
+    {
       "q": "Requested domain name?",
       "a": [
         {
