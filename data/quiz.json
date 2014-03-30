@@ -4,7 +4,7 @@
       "q": "Name?",
       "a": [
         {
-          "<input type='text' name='name'>"
+          "input": "<input type='text' name='name'>"
         }
       ]
     },
@@ -12,7 +12,7 @@
       "q": "eMail?",
       "a": [
         {
-          "<input type='text' name='email'>"
+          "input": "<input type='text' name='email'>"
         }
       ]
     },
@@ -20,7 +20,7 @@
       "q": "Phone Number?",
       "a": [
         {
-          "<input type='text' name='phone'>"
+          "input": "<input type='text' name='phone'>"
         }
       ]
     },
@@ -28,7 +28,7 @@
       "q": "Requested domain name?",
       "a": [
         {
-          "<input type='text' name='domain'>"
+          "input": "<input type='text' name='domain'>"
         }
       ]
     },
@@ -36,7 +36,7 @@
       "q": "Number of pages needed?",
       "a": [
         {
-          "<input type='text' name='pages'>"
+          "input": "<input type='text' name='pages'>"
         }
       ]
     },
@@ -55,7 +55,7 @@
       "q": "Requested domain name?",
       "a": [
         {
-          "<input type='text' name='domain'>"
+          "input": "<input type='text' name='domain'>"
         }
       ]
     },
@@ -123,7 +123,7 @@
       "q": "Comments?",
       "a": [
         {
-          "<textarea name='comments' rows='4' cols='50'>"
+          "input": "<textarea name='comments' rows='4' cols='50'>"
         }
       ]
     },
@@ -131,7 +131,7 @@
       "q": "What is your budget? <span class='em'>(in dollars)</span>",
       "a": [
         {
-          "<input type='text' name='pages'>"
+          "input": "<input type='text' name='pages'>"
         }
       ]
     },
