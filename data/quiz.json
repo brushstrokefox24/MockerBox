@@ -1,57 +1,140 @@
 {
   "questions": [
     {
-      "q": "What is your gender?",
+      "q": "Name?",
       "a": [
         {
-          "option": "Female"
-        },
-        {
-          "option": "Male"
+          "<input type='text' name='name'>"
         }
       ]
     },
     {
-      "q": "What is your personality type?",
+      "q": "eMail?",
       "a": [
         {
-          "option": "Introverted"
-        },
-        {
-          "option": "Extroverted"
+          "<input type='text' name='email'>"
         }
       ]
     },
     {
-      "q": "Are you Aggressive?",
+      "q": "Phone Number?",
       "a": [
         {
-          "option": "Yes"
-        },
-        {
-          "option": "No"
+          "<input type='text' name='phone'>"
         }
       ]
     },
     {
-      "q": "Do you appreciate shenanigans?",
+      "q": "Requested domain name?",
       "a": [
         {
-          "option": "Yes"
-        },
-        {
-          "option": "No"
+          "<input type='text' name='domain'>"
         }
       ]
     },
     {
-      "q": "Have you been bewitched, cursed or have done these to others?",
+      "q": "Number of pages needed?",
       "a": [
         {
-          "option": "Yes"
+          "<input type='text' name='pages'>"
+        }
+      ]
+    },
+    {
+      "q": "Requested domain name?",
+      "a": [
+        {
+          "<input type='text' name='domain'>"
+        }
+      ]
+    },
+    {
+      "q": "Choose your desired options. <span class='em'>(Check all that apply)</span>",
+      "a": [
+        {
+          "option": "Comment System"
         },
         {
-          "option": "No"
+          "option": "Blogging Platform"
+        },
+        {
+          "option": "Google Analytics"
+        },
+        {
+          "option": "Clicky.com Analytics"
+        },
+        {
+          "option": "Link to Social Media"
+        }
+      ]
+    },
+    {
+      "q": "What is your website niche?",
+      "a": [
+        {
+          "option": "Portfolio"
+        },
+        {
+          "option": "Personal"
+        },
+        {
+          "option": "Affiliate"
+        },
+        {
+          "option": "Business"
+        },
+        {
+          "option": "Marketing"
+        },
+        {
+          "option": "Other"
+        }
+      ]
+    },
+    {
+      "q": "What is your time frame?",
+      "a": [
+        {
+          "option": "Less than one week"
+        },
+        {
+          "option": "1 to 2 weeks"
+        },
+        {
+          "option": "3 to 4 weeks"
+        },
+        {
+          "option": "2 months or more"
+        }
+      ]
+    },
+    {
+      "q": "Comments?",
+      "a": [
+        {
+          "<textarea name='comments' rows='4' cols='50'>"
+        }
+      ]
+    },
+    {
+      "q": "What is your budget? <span class='em'>(in dollars)</span>",
+      "a": [
+        {
+          "<input type='text' name='pages'>"
+        }
+      ]
+    },
+    {
+      "q": "Payment method?",
+      "a": [
+        {
+          "option": "Cash"
+        },
+        {
+          "option": "Credit or Debit"
+        },
+        {
+          "option": "Paypal"
         }
       ]
     }
