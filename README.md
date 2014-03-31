@@ -20,4 +20,3 @@ Git Basics:
 
 -Push all files to GH with: git push git@github.com:your_username/repo_name.git
 
-mic check
