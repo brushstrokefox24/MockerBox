@@ -14,14 +14,6 @@
       "a": "<input type='text' name='phone'>"
     },
     {
-      "q": "Requested domain name?",
-      "a": "<input type='text' name='domain'>"
-    },
-    {
-      "q": "Number of pages needed?",
-      "a": "<input type='text' name='pages'>"
-    },
-    {
       "q": "Do you already have a domain name?",
       "a": [
         {
@@ -37,22 +29,37 @@
       "a": "<input type='text' name='domain'>"
     },
     {
-      "q": "Choose your desired options. <span class='em'>(Check all that apply)</span>",
+      "q": "What is your time frame?",
       "a": [
         {
-          "option": "<input type='checkbox' name='options'>Comment System</input>"
+          "option": "<input type='radio' name='timeframe'>Less than one week</input>"
         },
         {
-          "option": "<input type='checkbox' name='options'>Blogging Platform</input>"
+          "option": "<input type='radio' name='timeframe'>1 to 2 weeks</input>"
         },
         {
-          "option": "<input type='checkbox' name='options'>Google Analytics</input>"
+          "option": "<input type='radio' name='timeframe'>3 to 4 weeks</input>"
         },
         {
-          "option": "<input type='checkbox' name='options'>Clicky.com Analytics</input>"
+          "option": "<input type='radio' name='timeframe'>2 months or more</input>"
+        }
+      ]
+    },
+    {
+      "q": "What is your budget? <span class='em'>(in dollars)</span>",
+      "a": "<input type='text' name='pages'>"
+    },
+    {
+      "q": "Payment method?",
+      "a": [
+        {
+          "option": "<input type='radio' name='payment'>Cash</input>"
         },
         {
-          "option": "<input type='checkbox' name='options'>Link to Social Media</input>"
+          "option": "<input type='radio' name='payment'>Credit or Debit</input>"
+        },
+        {
+          "option": "<input type='radio' name='payment'>Paypal</input>"
         }
       ]
     },
@@ -80,43 +87,68 @@
       ]
     },
     {
-      "q": "What is your time frame?",
+      "q": "Number of pages needed?",
+      "a": "<input type='text' name='pages'>"
+    },
+    {
+      "q": "Choose your desired options. <span class='em'>(Check all that apply)</span>",
       "a": [
         {
-          "option": "<input type='radio' name='timeframe'>Less than one week</input>"
+          "option": "<input type='checkbox' name='options'>Comment System</input>"
         },
         {
-          "option": "<input type='radio' name='timeframe'>1 to 2 weeks</input>"
+          "option": "<input type='checkbox' name='options'>Blogging Platform</input>"
         },
         {
-          "option": "<input type='radio' name='timeframe'>3 to 4 weeks</input>"
+          "option": "<input type='checkbox' name='options'>Google Analytics</input>"
         },
         {
-          "option": "<input type='radio' name='timeframe'>2 months or more</input>"
+          "option": "<input type='checkbox' name='options'>Clicky.com Analytics</input>"
+        },
+        {
+          "option": "<input type='checkbox' name='options'>Link to Social Media</input>"
+        }
+      ]
+    },
+    {
+      "q": "Would you like a sidebar?",
+      "a": [
+        {
+          "option": "<input type='radio' name='sidebar'>Yes</input>"
+        },
+        {
+          "option": "<input type='radio' name='sidebar'>No</input>"
+        }
+      ]
+    },
+    {
+      "q": "Would you like a sidebar?",
+      "a": [
+        {
+          "option": "<input type='radio' name='sidebar'>Yes</input>"
+        },
+        {
+          "option": "<input type='radio' name='sidebar'>No</input>"
+        }
+      ]
+    },
+    {
+      "q": "How many columns?",
+      "a": [
+        {
+          "option": "<input type='radio' name='sidebar'>2</input>"
+        },
+        {
+          "option": "<input type='radio' name='sidebar'>3</input>"
+        },
+        {
+          "option": "<input type='radio' name='sidebar'>4</input>"
         }
       ]
     },
     {
       "q": "Comments?",
       "a": "<textarea name='comments' rows='4' cols='50'>"
-    },
-    {
-      "q": "What is your budget? <span class='em'>(in dollars)</span>",
-      "a": "<input type='text' name='pages'>"
-    },
-    {
-      "q": "Payment method?",
-      "a": [
-        {
-          "option": "<input type='radio' name='payment'>Cash</input>"
-        },
-        {
-          "option": "<input type='radio' name='payment'>Credit or Debit</input>"
-        },
-        {
-          "option": "<input type='radio' name='payment'>Paypal</input>"
-        }
-      ]
     }
   ]
 }
